@@ -2,7 +2,10 @@ import Camera from "../components/Camera";
 
 function Home() {
   return (
-    <Camera />
+    <div>
+      <h1>React Working</h1>
+      <Camera />
+    </div>
   );
 }
 

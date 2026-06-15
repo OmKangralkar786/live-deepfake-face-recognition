@@ -1,4 +1,3 @@
-from deepface import DeepFace
 from django.conf import settings
 import os
 import numpy as np
@@ -15,6 +14,8 @@ MATCH_THRESHOLD = 0.23
 def recognize_face(captured_image):
 
     try:
+
+        from deepface import DeepFace
 
         print("\nStarting Recognition...")
         print("Captured Image:", captured_image)

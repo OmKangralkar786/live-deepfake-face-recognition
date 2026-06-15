@@ -3,6 +3,7 @@ import Webcam from "react-webcam";
 import api from "../services/api";
 
 function Camera() {
+
     const webcamRef = useRef(null);
 
     const [image, setImage] = useState(null);
