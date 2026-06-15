@@ -1,0 +1,14 @@
+venv/
+venv311/
+**pycache**/
+*.pyc
+db.sqlite3
+
+media/captured/
+media/models/
+
+node_modules/
+dist/
+.env
+
+.DS_Store
